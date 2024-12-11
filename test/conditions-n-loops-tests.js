@@ -447,7 +447,7 @@ describe('core-js-conditions-n-loops', () => {
         forbidden.isCommented(tasks.rotateMatrix),
         false,
         `Be sure to remove comments from the final solution`
-      );
+      );undefined
       assert.equal(
         forbidden.isArrayUsed(tasks.rotateMatrix),
         false,
